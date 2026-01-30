@@ -5,6 +5,7 @@ import YZYScene from './YZYScene';
 import Navigation from './Navigation';
 import StadiumWidget from './StadiumWidget';
 import SpreadButton from './SpreadButton';
+import Manifesto from './Manifesto';
 
 export default function App() {
   const [audioStarted, setAudioStarted] = useState(false);
@@ -96,14 +97,7 @@ export default function App() {
       <Navigation />
       <StadiumWidget />
 
-      <div className="absolute bottom-32 left-1/2 -translate-x-1/2 z-70 text-center w-full">
-        <a
-          href="https://live.yemexicocity.com/"
-          className="inline-block text-xs md:text-sm tracking-[0.3em] font-bold hover:bg-white hover:text-black hover:px-2 transition-all duration-300 uppercase border-b border-transparent hover:border-black"
-        >
-          YE live in mexico city
-        </a>
-      </div>
+      <Manifesto />
 
       <SpreadButton />
 
