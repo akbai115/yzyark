@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-black text-white font-mono overflow-hidden antialiased;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Custom scrollbar hide if needed */
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* Animations */
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-up {
+  animation: slideUp 1.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
