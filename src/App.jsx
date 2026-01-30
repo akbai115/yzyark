@@ -89,7 +89,7 @@ export default function App() {
       </div>
 
       {/* z-60: Mexico Header */}
-      <div className="absolute top-[20%] left-1/2 -translate-x-1/2 -translate-y-1/2 z-60 pointer-events-none mix-blend-exclusion">
+      <div className="absolute top-[20%] left-6 -translate-y-1/2 z-60 pointer-events-none mix-blend-exclusion">
         <img src="/mexico.png" alt="MEXICO CITY" className="w-48 md:w-80 opacity-90" />
       </div>
 
