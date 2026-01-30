@@ -43,8 +43,9 @@ export default function Manifesto() {
                 </div>
 
                 <div>
-                    <p>HOLDERS ARE WITNESSES</p>
-                    <p>NOT USERS</p>
+                    <p>THOSE WHO OWN YZY SOL</p>
+                    <p>HOLD THROUGH SILENCE</p>
+                    <p>NOT THROUGH HYPE</p>
                 </div>
 
                 <div>
