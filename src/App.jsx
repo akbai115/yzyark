@@ -6,6 +6,7 @@ import Navigation from './Navigation';
 import StadiumWidget from './StadiumWidget';
 import SpreadButton from './SpreadButton';
 import Manifesto from './Manifesto';
+import ContractAddress from './ContractAddress';
 
 export default function App() {
   const [audioStarted, setAudioStarted] = useState(false);
@@ -96,6 +97,7 @@ export default function App() {
       {/* z-70: Interactive UI */}
       <Navigation />
       <StadiumWidget />
+      <ContractAddress />
 
       <Manifesto />
 
