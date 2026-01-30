@@ -8,7 +8,7 @@ const TwitterXIcon = ({ className }) => (
 
 export default function SpreadButton() {
     const handleShare = () => {
-        const text = "YZYARK - MEXICO CITY";
+        const text = "$YZYSOL";
         const url = window.location.href;
         window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`, '_blank');
     };
@@ -18,7 +18,7 @@ export default function SpreadButton() {
             onClick={handleShare}
             className="fixed bottom-8 left-1/2 -translate-x-1/2 z-[70] flex items-center gap-3 px-4 py-2 bg-white text-black font-mono text-xs tracking-[0.2em] hover:bg-gray-200 transition-all active:scale-95"
         >
-            <span>SPREAD YZYARK</span>
+            <span>SPREAD YZYSOL</span>
             <TwitterXIcon className="w-3 h-3" />
         </button>
     );
